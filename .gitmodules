@@ -1,0 +1,12 @@
+[submodule "JerAndo4.github.io"]
+	path = JerAndo4.github.io
+	url = git@github.com:JerAndo4/JerAndo4.github.io.git
+	branch = main
+[submodule "publick"]
+	path = publick
+	url = git@github.com:JerAndo4/JerAndo4.github.io.git
+	branch = main
+[submodule "public"]
+	path = public
+	url = git@github.com:JerAndo4/JerAndo4.github.io.git
+	branch = main
