@@ -66,4 +66,3 @@ highlight_name: true
 
 Nikita Karmatsky is a student of the Peoples' Friendship University of Russia. Helps secondary school students to prepare for the OGE in computer science. Wants to become a software developer.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
