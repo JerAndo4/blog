@@ -1,5 +1,5 @@
 ---
-title: Python and environment
+title: Python и окружение
 tags:
   - Python
 date: '2022-05-14T00:00:00Z'
@@ -18,5 +18,5 @@ image:
 #   Otherwise, set `slides = ""`.
 ---
 
-Various programs for programming in Python
+Различные программы для программирования на Python
 

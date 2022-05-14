@@ -1,6 +1,6 @@
 ---
-title: Markdown language
-subtitle: Today we will talk about Markdown language
+title: Язык разметки Markdown
+subtitle: Сегодня мы поговорим о языке разметки Markdown
 
 # Link this post with a project
 projects: []
@@ -36,44 +36,41 @@ categories:
 
 ---
 
-## **Overview**
+*Markdown - это язык разметки текстов. Такие тексты легко писать и читать. Они могут быть легко преобразованы в HTML. Большинство программистов предпочитают Markdown для написания документации, описания своих проектов, ведения блогов и так далее.*
 
-*Markdown is a markup language for texts. Such texts are easy to write and read. They can be easily converted to HTML. Most programmers prefer Markdown for writing documentation, describing their projects, writing blogs, and so on.*
+## **Что это значит?**
 
-## **What does it mean?**
+"Язык разметки" - это всего лишь набор соглашений, правил.
 
-The "markup language" is just a set of conventions, rules.
+Допустим, вы общаетесь с другом по SMS. Вы не можете сделать текст в них жирным или наклонным. Вы согласны с другом: если я напишу *что-то* так между звездочками, то считайте это наклонным текстом. И если я напишу ** что-то ** между двумя звездочками, то считайте это жирным шрифтом. Ты придумал правила.
 
-Let's say that you communicate with a friend by SMS. You can't make the text bold or slanted in them. You agree with a friend: if I write * something* so between the asterisks, then consider it an oblique text. And if I write ** something ** between two asterisks, then consider it a bold text. You came up with the rules.
+Markdown - это набор аналогичных правил.
 
-Markdown is a set of similar rules.
+## **Почему это необходимо?**
 
-## **Why is this necessary?**
+1. Добавить разметку в тех местах, где реальная разметка невозможна. Например, в простом текстовом файле или в том же SMS, где невозможно выделить жирным шрифтом, создать заголовки, выделить кавычки и т.д.
 
-1. To add markup to places where real markup is not possible. For example, in a simple text file or in the same SMS, where it is impossible to highlight bold, create titles, highlight quotes, etc.
+2. Для более удобного написания текстов для последующего преобразования в HTML или другие форматы.
 
-2. For more convenient writing of texts for subsequent conversion to HTML or other formats.
+## **Синтаксис Markdown**
 
-## **Markdown syntax**
+Это краткое описание основных элементов синтаксиса Markdown. Единого стандарта не существует, и разные версии Markdown могут отличаться в деталях. Но основные элементы из приведенного ниже списка поддерживаются во всех стандартах.
 
-This is a quick reference of the basic elements of the Markdown syntax. There is no single standard and different versions of Markdown may differ in details. But the basic elements from the list below are supported in all standards.
+#### **Выделение текста**
 
-#### **Text Selection**
+  **Этот текст будет выделен наклонным шрифтом (курсивом).*  * 
 
-  **This text will be slanted (italics)*  * 
+_ _Этот текст будет выделен наклонным шрифтом (курсивом)_ _
 
-_ _This text will be slanted (italics)_ _
-
-  ** **This text will be bold** **
+  ** **Этот текст будет выделен жирным шрифтом** **
 
 __ __This text will be bold__ __
 
-_ _It is possible to ** **insert** ** one type into another_ _
+_ _Можно  ** **вставить** ** один тип в другой_ _
 
 
-#### **Headings**
-
-	#This is the largest header, it turns into a <h1> tag
+#### **Заголовки**
+	#Это самый большой заголовок, он превращается в тег <h1>
 
 	##<h2>
 
@@ -85,50 +82,49 @@ _ _It is possible to ** **insert** ** one type into another_ _
 	
 	######<h6>
 
-#### **Links**
-https://github.com — the text of a simple link will become a clickable link automatically
+#### **Ссылки**
+https://github.com — текст простой ссылки автоматически станет кликабельной ссылкой
 
-Any text can be made a link:
+Любой текст можно сделать ссылкой:
 
-[This is a link to GitHub](https://github.com )
+[Это ссылка на GitHub](https://github.com )
 
-#### **Quote**
+#### **Цитата**
 
-> (>)This is a wise quote
+> (>)Это мудрая цитата
 
-> (>)A wise man.
+> (>)Мудрый человек.
 
-Write without brackets!!!
+Пишите без скобок!!!
 
-#### **Lists**
-An unnumbered list:
+#### **Списки**
+Ненумерованный список:
 
-* Item (*)
+* Пункт (*)
 
-* One more point (*)
+* Еще один пункт (*)
 
-	* Sub-item (Tab + *)
+	* Подпункт  (Tab + *)
 
-	* One more sub-item (Tab + *)
+	* Еще один подпункт (Tab + *)
 
-Write without brackets and before paragraphs!!!
+Пишите без скобок и перед абзацами!!!
 
-For sub-items, use TAB
+Для подпунктов используйте TAB
 
-#### **Numbered list:**
+#### **Нумерованный список:**
 
-1. Item
+1. Пункт
 
-1. One more point
+1. Еще один момент
 
-	1. Sub-item
+	1. Подпункт
 
-	1. One more sub-item
+	1. Еще один подпункт
 	
-For sub-items, use TAB
+Для подпунктов используйте TAB
 
-You can use any numbers in the numbered list — it doesn't matter. When converted to HTML or another format, the numbers will become correct and consistent (1, 2, 3, etc.).
-
+Вы можете использовать любые цифры в нумерованном списке — это не имеет значения. При преобразовании в HTML или другой формат числа станут правильными и последовательными (1, 2, 3 и т.д.).
 
 
 

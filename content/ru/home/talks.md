@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 70
 
-title: 'Недавние и предстоящие переговоры'
+title: 'Недавние и предстоящие выступления'
 subtitle:
 
 content:

@@ -1,5 +1,5 @@
 ---
-title: C++ and environment
+title: C++ и окружение
 tags:
   - C
 date: '2022-05-14T00:00:00Z'
@@ -18,5 +18,5 @@ image:
 #   Otherwise, set `slides = ""`.
 ---
 
-Various programs for programming in c++
+Различные программы для программирования на C++
 

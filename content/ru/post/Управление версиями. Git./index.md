@@ -1,9 +1,9 @@
 ---
-title: Version control. Git.
-subtitle: Today we will talk about Version Control and Git.
+title: Управление версиями. Git.
+subtitle: Сегодня мы поговорим о Управление версиями и Git.
 
 # Summary for listings and search engines
-summary: Today we will talk about Version Control and Git.
+summary: Сегодня мы поговорим о Управление версиями и Git.
 
 # Link this post with a project
 projects: []
@@ -32,77 +32,77 @@ authors:
   - admin
 
 tags:
-  - Version Control and Git.
+  - Управление версиями и Git
 
 categories:
-  - post 2
+  - пост 2
 
 ---
 
-## Overview
+## Обзор
 
-1. 	About the version control system
+1. О системе контроля версий
 
-	What is a "version control system" and why is it important? A version control system is a system that records changes to a file or set of files over time and allows you to return later to a specific version. For file version control, this book will use the source code of the software as an example, although in fact you can use version control for almost any type of file.	
+Что такое "система контроля версий" и почему это важно? Система контроля версий - это система, которая записывает изменения в файл или набор файлов с течением времени и позволяет вам позже вернуться к определенной версии. Для контроля версий файлов в этой книге в качестве примера будет использоваться исходный код программного обеспечения, хотя на самом деле вы можете использовать контроль версий практически для любого типа файлов.
 
-	If you are a graphic or web designer and you want to save every version of an image or layout (most likely you will), the version control system (hereinafter referred to as SLE) — just what you need. It allows you to return files to the state they were in before the changes, return the project to its original state, see the changes, see who last changed something and caused the problem, who set the task and when, and much more. Using SLE also means in general that if you have broken something or lost files, you can safely fix everything. In addition to everything, you will get it all without any extra effort.
+Если вы графический или веб—дизайнер и хотите сохранять каждую версию изображения или макета (скорее всего, вы это сделаете), система контроля версий (далее именуемая SLE) - как раз то, что вам нужно. Это позволяет вам вернуть файлы в состояние, в котором они были до изменений, вернуть проект в исходное состояние, просмотреть изменения, посмотреть, кто в последний раз что-то менял и вызвал проблему, кто поставил задачу и когда, и многое другое. Использование SLE также в целом означает, что если вы что-то сломали или потеряли файлы, вы можете безопасно все исправить. В дополнение ко всему, вы получите все это без каких-либо дополнительных усилий.
 
-2. Local version control systems
+2. Локальные системы контроля версий
 
-Many people use copying files to a separate directory as a version control method (perhaps even a directory with a time stamp, if they are smart enough). This approach is very common because of its simplicity, but it is incredibly prone to errors. You can easily forget which directory you are in and accidentally change the wrong file or copy the wrong files that you wanted.
+Многие люди используют копирование файлов в отдельный каталог в качестве метода контроля версий (возможно, даже в каталог с отметкой времени, если они достаточно умны). Этот подход очень распространен из-за своей простоты, но он невероятно подвержен ошибкам. Вы можете легко забыть, в каком каталоге вы находитесь, и случайно изменить неправильный файл или скопировать не те файлы, которые вы хотели.
 
-In order to solve this problem, programmers have long ago developed local SLE with a simple database that stores records of all changes in files, thereby monitoring revisions.
-	
-![Figure 1. Local version control](local.png)
-*Figure 1. Local version control*
-	
+Чтобы решить эту проблему, программисты давно разработали local SLE с простой базой данных, которая хранит записи обо всех изменениях в файлах, тем самым отслеживая изменения.
 
-3. Centralized version control systems
+![Рисунок 1. Локальный контроль версий](local.png)
+*Рисунок 1. Локальный контроль версий*
 
-The next major problem that people face is the need to interact with other developers. In order to deal with it, centralized version control systems (CSKA) were developed. Systems such as CVS, Subversion, and Perforce use a single server containing all versions of files, and a number of clients that receive files from this centralized repository. The use of CSKA has been the standard for many years.
 
-![Figure 2. Centralized version control](centralized.png)
+3. Централизованные системы контроля версий
 
-*Figure 2. Centralized version control*
+Следующая серьезная проблема, с которой сталкиваются люди, - это необходимость взаимодействия с другими разработчиками. Чтобы справиться с этим, были разработаны централизованные системы управления версиями (CSKA). Такие системы, как CVS, Subversion и Perforce, используют единый сервер, содержащий все версии файлов, и ряд клиентов, которые получают файлы из этого централизованного хранилища. Использование ЦСКА было стандартом на протяжении многих лет.
 
-This approach has many advantages, especially over local SLE. For example, all project developers know to a certain extent what each of them is doing. Administrators have full control over who can do what, and it is much easier to administer the CSCS than to operate local databases on each client.
+![Рисунок 2. Централизованное управление версиями](centralized.png)
 
-Despite this, this approach also has serious disadvantages. The most obvious disadvantage is a single point of failure represented by a centralized server. If this server goes down for an hour, then during this time no one will be able to use version control to save the changes they are working on, and no one will be able to share these changes with other developers. If the hard disk on which the central database is stored is damaged, and there are no timely backups, you will lose everything — the entire history of the project, not counting single repository snapshots that have been saved on local developer machines. Local SLE suffer from the same problem: when the entire project history is stored in one place, you risk losing everything.
+*Рисунок 2. Централизованное управление версиями*
 
-4. Distributed version control systems
+Этот подход имеет много преимуществ, особенно по сравнению с локальной СКВ. Например, все разработчики проектов в определенной степени знают, что делает каждый из них. Администраторы имеют полный контроль над тем, кто что может делать, и гораздо проще администрировать CSCS, чем управлять локальными базами данных на каждом клиенте.
 
-This is where distributed Version control systems (RSCs) come into play. In RSKV (such as Git, Mercurial, Bazaar or Darcs), clients do not just download a snapshot of all files (the state of files at a certain point in time) — they completely copy the repository. In this case, if one of the servers through which the developers exchanged data dies, any client repository can be copied to another server to continue working. Each copy of the repository is a complete backup of all data.
+Несмотря на это, такой подход также имеет серьезные недостатки. Наиболее очевидным недостатком является единая точка отказа, представленная централизованным сервером. Если этот сервер выйдет из строя на час, то в течение этого времени никто не сможет использовать систему управления версиями для сохранения изменений, над которыми они работают, и никто не сможет поделиться этими изменениями с другими разработчиками. Если жесткий диск, на котором хранится центральная база данных, поврежден, и нет своевременных резервных копий, вы потеряете все — всю историю проекта, не считая отдельных снимков репозитория, которые были сохранены на локальных машинах разработчика. Локальные SLE страдают от той же проблемы: когда вся история проекта хранится в одном месте, вы рискуете потерять все.
 
-![Figure 3. Distributed version control](distributed.png)
+4. Распределенные системы контроля версий
 
-*Figure 3. Distributed version control*
+Именно здесь в игру вступают распределенные системы контроля версий (RSCs). В RSKV (таких как Git, Mercurial, Bazaar или Darcs) клиенты не просто загружают снимок всех файлов (состояние файлов на определенный момент времени) — они полностью копируют репозиторий. В этом случае, если один из серверов, через который разработчики обменивались данными, умирает, любой клиентский репозиторий может быть скопирован на другой сервер для продолжения работы. Каждая копия хранилища представляет собой полную резервную копию всех данных.
 
-Moreover, many RSCs can simultaneously interact with several remote repositories, thanks to this you can work with different groups of people using different approaches at the same time within the same project. This allows you to apply several approaches to development at once, for example, hierarchical models, which is completely impossible in centralized systems.
+![Рисунок 3. Распределенный контроль версий](distributed.png)
 
-5. What is Git?
+*Рисунок 3. Распределенный контроль версий*
 
-What is Git, in short? It is very important to understand this part of the material, because if you understand what Git is and the basics of how it works, then it may be much easier for you to use it. While you are learning Git, try to forget everything you know about other SLE, such as Subversion and Perforce. This will allow you to avoid certain problems when using the tool. Git stores and uses information quite differently compared to other systems, even though the user interface is quite similar, and understanding these differences will help you avoid confusion during use.
+Более того, многие RSCs могут одновременно взаимодействовать с несколькими удаленными репозиториями, благодаря этому вы можете работать с разными группами людей, используя разные подходы одновременно в рамках одного и того же проекта. Это позволяет применять сразу несколько подходов к разработке, например, иерархические модели, что совершенно невозможно в централизованных системах.
 
-**Snapshots, not differences**
+5. Что такое Git?
 
-The main difference between Git and any other SLE (including Subversion and its brethren) — this is an approach to working with your data. Conceptually, most other systems store information as a list of changes in files. These systems (CVS, Subversion, Perforce, Bazaar, etc.) represent the stored information as a set of files and changes made to each file, over time
+Короче говоря, что такое Git? Очень важно понять эту часть материала, потому что, если вы понимаете, что такое Git и основы того, как он работает, вам может быть намного проще его использовать. Пока вы изучаете Git, постарайтесь забыть все, что вы знаете о других SLE, таких как Subversion и Perforce. Это позволит вам избежать определенных проблем при использовании инструмента. Git хранит и использует информацию совершенно по-другому по сравнению с другими системами, хотя пользовательский интерфейс довольно похож, и понимание этих различий поможет вам избежать путаницы во время использования.
 
-**Almost all operations are performed locally**
+**Моментальные снимки, а не различия**
 
-For most operations in Git, local files and resources are sufficient — basically, the system does not need any information from other computers on your network. If you are used to CSKA, where most operations suffer from delays due to working with the network, then this aspect of Git will make you think that the gods of speed have endowed Git with untold power. Since the entire history of the project is stored directly on your local disk, most operations seem almost instantaneous.
+Главное отличие Git от любого другого SLE (включая Subversion и его собратьев) — это подход к работе с вашими данными. Концептуально большинство других систем хранят информацию в виде списка изменений в файлах. Эти системы (CVS, Subversion, Perforce, Bazaar и т.д.) Представляют сохраненную информацию в виде набора файлов и изменений, вносимых в каждый файл с течением времени
 
-**Git Integrity**
+**Почти все операции выполняются локально**
 
-In Git, a hash sum is calculated for everything, and only then the saving takes place. In the future, the stored objects are accessed using this hash amount. This means that it is impossible to change the contents of a file or directory without Git knowing about it. This functionality is built into Git at a low level and is an integral part of its philosophy. You will not lose information during its transfer and will not receive a corrupted file without Git's knowledge.
+Для большинства операций в Git достаточно локальных файлов и ресурсов — в принципе, системе не нужна никакая информация с других компьютеров в вашей сети. Если вы привыкли к CSKA, где большинство операций страдают от задержек из-за работы с сетью, то этот аспект Git заставит вас подумать, что боги скорости наделили Git неисчислимой силой. Поскольку вся история проекта хранится непосредственно на вашем локальном диске, большинство операций кажутся почти мгновенными.
 
-**Three states**
+**Целостность Git**
 
-Now listen carefully. This is the most important thing to remember about Git if you want the rest of the learning process to go smoothly. Git has three main states in which your files can be located: modified, indexed, and committed:
+В Git для всего вычисляется хэш-сумма, и только после этого происходит сохранение. В будущем доступ к сохраненным объектам осуществляется с использованием этой хэш-суммы. Это означает, что невозможно изменить содержимое файла или каталога без ведома Git. Эта функциональность встроена в Git на низком уровне и является неотъемлемой частью его философии. Вы не потеряете информацию во время ее передачи и не получите поврежденный файл без ведома Git.
 
-Modified files include files that have changed, but have not yet been committed.
+** Три государства**
 
-Indexed is a modified file in its current version, marked for inclusion in the next commit.
+А теперь слушай внимательно. Это самое важное, что нужно помнить о Git, если вы хотите, чтобы остальная часть процесса обучения прошла гладко. Git имеет три основных состояния, в которых могут находиться ваши файлы: измененные, проиндексированные и зафиксированные:
 
-Fixed means that the file has already been saved in your local database.
+Измененные файлы включают файлы, которые были изменены, но еще не были зафиксированы.
+
+Индексированный - это измененный файл в его текущей версии, помеченный для включения в следующую фиксацию.
+
+Исправлено означает, что файл уже сохранен в вашей локальной базе данных.
 
 We have come to the three main sections of the Git project: the working copy (working tree), the indexing area (staging area) and the Git directory (Git directory).
