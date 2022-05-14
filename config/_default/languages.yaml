@@ -3,10 +3,35 @@
 #   Documentation: https://wowchemy.com/docs/guide/language/
 
 # Default language
+
 en:
   languageCode: en-us
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/en
+
+ru:
+  languageCode: "ru-ru"
+  contentDir: "content/ru" 
+  menu: 
+    main:
+      - name: Обо Мне
+        url: '#about'
+        weight: 10
+      - name: Блог
+        url: '#posts'
+        weight: 20
+      - name: Проекты
+        url: '#projects'
+        weight: 30
+      - name: Выступления
+        url: '#talks'
+        weight: 40
+      - name: Публикации
+        url: '#featured'
+        weight: 50
+      - name: Контакты
+        url: '#contact'
+        weight: 60
 
 # Uncomment the lines below to configure your website in a second language.
 #zh:
