@@ -1,6 +1,6 @@
 ---
-title: Create a presentation
-subtitle: Today we will talk about сreate a presentation
+title: Создание презентации
+subtitle: Сегодня мы поговорим о создании презентации
 
 # Link this post with a project
 projects: []
@@ -29,91 +29,91 @@ authors:
   - admin
 
 tags:
-  - 3 week
+  - 3 неделя
 
 categories:
-  - post 3
+  - пост 3
 
 ---
 
-## **Overview**
+## ** Обзор**
 
-A good presentation begins with questions to yourself. The most important part you can do in notepad, even without turning on the computer. First, you choose a topic, define a goal, and distribute the arguments in the right order. And only now you can open the program and search for pictures for the presentation.
-## **1. Formulate a topic**
+Хорошая презентация начинается с вопросов к самому себе. Самую важную часть вы можете сделать в блокноте, даже не включая компьютер. Сначала вы выбираете тему, определяете цель и распределяете аргументы в правильном порядке. И только теперь вы можете открыть программу и искать картинки для презентации.
+## **1. Сформулируйте тему**
 
-It is difficult to listen to the interlocutor who jumps from one to another, so the presentation should have only one topic. Otherwise, it will be a long story about nothing. The topic should be narrow enough to offer a solution to the problem at the end. Narrow down the topic until the presentation cannot be presented in ten short paragraphs.
+Трудно слушать собеседника, который перескакивает с одного на другое, поэтому в презентации должна быть только одна тема. В противном случае это будет долгая история ни о чем. Тема должна быть достаточно узкой, чтобы в конце предложить решение проблемы. Сужайте тему до тех пор, пока презентация не сможет быть представлена в десяти коротких абзацах.
 
-It is easy to identify a good topic — it suggests the structure of the speech itself.
-
-&nbsp;
-
-***A broad topic, thought jumps***
-
-**Public appearances**
-
-What is public speaking
-
-When we speak publicly
-
-How to prepare
-
-How to work with an audience
+Легко определить хорошую тему — она подсказывает структуру самой речи.
 
 &nbsp;
 
-***A narrow topic, the story pours***
+*** Широкая тема, мысли скачут***
 
+**Публичные выступления**
 
-**How to cope with the fear of public speaking**
+Что такое публичные выступления
 
-Why are we afraid
+Когда мы выступаем публично
 
-How to stop being afraid
+Как подготовиться
 
-What to do if you perform for the first time
-
-## **2. Define the goal**
-A good presentation changes the current picture of the world. For example, people are starting to take more care of the environment or are running for a new smartphone. The goal does not have to be ambitious, the main thing is specific.
-
-A good presentation goal starts with a question: what I want to change in the behavior of listeners.
+Как работать с аудиторией
 
 &nbsp;
 
-*Abstract goal*
+*** Узкая тема, история льется***
 
-It's good to perform
 
-Sell the product
+**Как справиться со страхом публичных выступлений**
 
-Show that the product is good
+Почему мы боимся
+
+Как перестать бояться
+
+Что делать, если вы выступаете в первый раз
+
+## **2. Определите цель**
+Хорошая презентация меняет нынешнюю картину мира. Например, люди начинают больше заботиться об окружающей среде или бегут за новым смартфоном. Цель не обязательно должна быть амбициозной, главное - конкретной.
+
+Хорошая цель презентации начинается с вопроса: что я хочу изменить в поведении слушателей.
 
 &nbsp;
 
-*Specific purpose*
+*Абстрактная цель*
 
-Convince that the new model consumes 20% less gasoline
+Это хорошо, чтобы выступать
 
-Prove that sales are falling, but that's OK
+Продайте продукт
 
-Convince the owners to take their animals to the annual vaccination
+Покажите, что продукт хорош
 
-## **3. Think over the scenario**
+&nbsp;
 
-The purpose of the presentation is what you want to change in the listener's head, and the script is how you will come to these changes.
+*Конкретная цель*
 
-Imagine that you are making up a story. The listener should be intrigued, come up with an interesting hero, lead him through difficulties to a successful ending. This is the basic structure of any text and presentation. Fairy tales, movie scripts and product advertisements are based on such a structure
+Убедите, что новая модель потребляет на 20% меньше бензина
 
-## **4. Rule of thirds**
+Докажите, что продажи падают, но это нормально
 
-This rule of creating presentations helps to arrange objects on the slide so that the eye immediately highlights the most important. Divide the slide into thirds lengthwise and across. Place significant objects at intersections. Significant objects are titles and illustrations.
+Убедите владельцев отвести своих животных на ежегодную вакцинацию
 
-## **5. The texts are shorter**
+## **3. Продумайте сценарий**
 
-One slide is one thought. This slide is easy to read and remember. If you speak publicly, it will keep the audience's attention. Exactly how much text will be on the slide depends on the size of the audience. If a person is reading a presentation on the screen, a paragraph of text will not frighten him. If you are speaking in front of an audience of a hundred people, it will be difficult to read more than ten words on the slide.
+Цель презентации - это то, что вы хотите изменить в голове слушателя, а сценарий - это то, как вы придете к этим изменениям.
 
-## **6. Add images**
+Представьте, что вы сочиняете историю. Слушатель должен быть заинтригован, придумать интересного героя, провести его через трудности к успешному финалу. Это основная структура любого текста и презентации. Сказки, сценарии фильмов и реклама товаров основаны на такой структуре
 
-Photos and icons help to reveal the content, but should not replace it. If you find a beautiful photo "in the subject" that does not help to reveal the idea, do not use it.
+## **4. Правило третей**
+
+Это правило создания презентаций помогает расположить объекты на слайде так, чтобы глаз сразу выделял самое важное. Разделите слайд на три части вдоль и поперек. Размещайте значимые объекты на перекрестках. Важными объектами являются названия и иллюстрации.
+
+## **5. Тексты короче**
+
+Один слайд - это одна мысль. Этот слайд легко читать и запоминать. Если вы выступите публично, это привлечет внимание аудитории. Точное количество текста на слайде зависит от размера аудитории. Если человек читает презентацию на экране, абзац текста его не испугает. Если вы выступаете перед аудиторией из ста человек, вам будет трудно прочитать более десяти слов на слайде.
+
+## **6. Добавление изображений**
+
+Фотографии и значки помогают раскрыть содержание, но не должны заменять его. Если вы нашли красивую фотографию "в тему", которая не помогает раскрыть идею, не используйте ее.
 
 You can use any numbers in the numbered list — it doesn't matter. When converted to HTML or another format, the numbers will become correct and consistent (1, 2, 3, etc.).
 
