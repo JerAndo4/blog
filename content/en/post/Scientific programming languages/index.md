@@ -6,10 +6,10 @@ subtitle: Today we will talk about scientific programming languages
 projects: []
 
 # Date published
-date: '2022-05-21T00:00:00Z'
+date: '2022-05-19T00:00:00Z'
 
 # Date updated
-lastmod: '2022-05-21T00:00:00Z'
+lastmod: '2022-05-19T00:00:00Z'
 
 # Is this an unpublished draft?
 draft: false
