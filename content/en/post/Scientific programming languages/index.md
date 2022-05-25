@@ -36,7 +36,6 @@ categories:
 
 ---
 
-## **Overview**
 
 There are at least 2 programming languages:
 

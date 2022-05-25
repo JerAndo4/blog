@@ -25,8 +25,8 @@ feature:
     icon_pack: "custom"
     name: Gaming
   - description: 40%
-    icon: camera-retro
-    icon_pack: fas
+    icon: photo
+    icon_pack: "custom"
     name: Photography
 # Uncomment to use emoji icons.
 #- icon: ":smile:"

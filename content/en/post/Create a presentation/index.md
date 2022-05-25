@@ -36,8 +36,6 @@ categories:
 
 ---
 
-## **Overview**
-
 A good presentation begins with questions to yourself. The most important part you can do in notepad, even without turning on the computer. First, you choose a topic, define a goal, and distribute the arguments in the right order. And only now you can open the program and search for pictures for the presentation.
 ## **1. Formulate a topic**
 

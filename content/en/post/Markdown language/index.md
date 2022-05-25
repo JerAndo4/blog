@@ -36,7 +36,6 @@ categories:
 
 ---
 
-## **Overview**
 
 *Markdown is a markup language for texts. Such texts are easy to write and read. They can be easily converted to HTML. Most programmers prefer Markdown for writing documentation, describing their projects, writing blogs, and so on.*
 

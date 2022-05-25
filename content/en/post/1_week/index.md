@@ -36,8 +36,6 @@ categories:
 
 ---
 
-## Overview
-
 1. Last week I did 3 laboratory work, but in fact 4, because the essence of one laboratory work was that it was necessary to rewrite the report of the previous laboratory work, and then write a report on this work.
 
 2. I've been eating deliciously all week. 

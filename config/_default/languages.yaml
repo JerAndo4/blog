@@ -8,10 +8,12 @@ en:
   languageCode: en-us
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   contentDir: content/en
+  title: 'Nikita S. Karmatskiy'
 
 ru:
   languageCode: "ru-ru"
   contentDir: "content/ru" 
+  title: 'Н.С.Кармацкий'
   menu: 
     main:
       - name: Обо Мне

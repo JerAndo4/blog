@@ -39,8 +39,6 @@ categories:
 
 ---
 
-## Overview
-
 1. 	About the version control system
 
 	What is a "version control system" and why is it important? A version control system is a system that records changes to a file or set of files over time and allows you to return later to a specific version. For file version control, this book will use the source code of the software as an example, although in fact you can use version control for almost any type of file.	

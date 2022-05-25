@@ -36,7 +36,6 @@ categories:
 
 ---
 
-## Overview
 
 1. In the fourth week, I did all the labs that are available at the moment.
 
