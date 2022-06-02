@@ -28,7 +28,7 @@ content:
   email: jerando4@gmail.com
   office_hours:
     - 'Понедельник с 10:00 до 13:00'
-    - 'Вторник с 09:00 до 10:00'
+    - 'Пятница с 09:00 до 10:00'
   appointment_url: 'https://calendly.com'
   contact_links:
     - icon: twitter
